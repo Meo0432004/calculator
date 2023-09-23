@@ -1,0 +1,46 @@
+@charset "utf-8";
+/* CSS Document */
+
+body
+{
+	margin-left: 210px;
+	width: 410px;
+	background: lightgray;
+}
+
+#Display
+{
+	text-align: right;
+	font-size: 25px;
+	background: white;
+	width: 400px;
+	height: 100px;
+	border: solid 2px #717171;
+}
+
+#title
+{
+	text-align: center;
+	font-size: 40px;
+	font-weight: bold;
+}
+
+button
+{
+	margin-top: 20px;
+	margin-left: 15px;
+	font-size: 20px;
+	background: white;
+	border: solid 1px #607485;
+	border-radius: 5px;
+	width: 80px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	cursor: pointer;
+}
+
+button:hover
+{
+	transition-delay: 0.3;
+	background: #C5C5C5;
+}
